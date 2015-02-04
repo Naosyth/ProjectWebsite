@@ -1,0 +1,236 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700|Open+Sans:400italic,400);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('../images/about-background.png');
+}
+
+.container {
+  width: 100%;
+  height: auto;
+}
+
+a.next {
+  width: 64px;
+  margin-left: -32px;
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+}
+
+.welcome-pane {
+  min-height: 100vh;
+  background-image: url('../images/welcome-background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.welcome-pane h1 {
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
+  color: #fff;
+  font-size: 100px;
+  padding-top: 26%;
+  opacity: 0.8;
+}
+
+.welcome-pane h2 {
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  font-style: italic;
+  opacity: 0.8;
+  padding-bottom: 100px;
+}
+
+.team-pane {
+  min-height: 100vh;
+  background-image: url('../images/team-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #000;
+  position: relative;
+}
+
+.team-pane .team {
+  background-color: rgba(255, 255, 255, 0.0);
+  position: relative;
+  top: 5%;
+  color: #fff;
+  padding-bottom: 100px;
+}
+
+.team h1 {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 10px;
+}
+
+.team h2 {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 35px;
+}
+
+.team h3 {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 22px;
+}
+
+.team .members {
+  width: 720px;
+  margin: 0 auto;
+  clear: both;
+}
+.team .members:after {
+  content: "";
+  display: block; 
+  height: 0; 
+  clear: both;
+}
+
+.team .advisors {
+  width: 480px;
+  margin: 0 auto;
+  clear: both;
+}
+.team .advisors:after {
+  content: "";
+  display: block; 
+  height: 0; 
+  clear: both;
+}
+
+.members h1, .advisors h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  padding-top: 50px;
+}
+
+.members .person, .advisors .person {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  overflow: hidden;
+  float: left;
+  position: relative;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+}
+
+.person img {
+  height: 100%;
+}
+
+.person:hover .bio {
+  visibility: visible;
+}
+
+.person .bio {
+  color: #000;
+  position: absolute;
+  top: 0;
+  visibility: hidden;
+  width: 200px;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 8px;
+}
+
+.bio p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.about-pane {
+  min-height: 100vh;
+  background-image: url('../images/about-background.png');
+  position: relative;
+}
+
+.about-pane .what {
+  color: #fff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.what h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-size: 70px;
+  text-align: center;
+}
+
+.what .background {
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.background p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.progress-pane {
+  min-height: 100vh;
+  position: relative;
+}
+
+.progress-pane .updates {
+  color: #fff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.updates h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-size: 70px;
+  text-align: center;
+}
+
+.updates .background {
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.resources-pane {
+  min-height: 100vh;
+  position: relative;
+}
+
+.resources-pane .links {
+  color: #fff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.links h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-size: 70px;
+  text-align: center;
+}
+
+.links .background {
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
