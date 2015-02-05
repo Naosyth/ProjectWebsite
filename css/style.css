@@ -130,7 +130,7 @@ a.next {
 }
 
 .person img {
-  height: 100%;
+  width: 100%;
 }
 
 .person:hover .bio {
@@ -225,6 +225,11 @@ a.next {
   font-style: italic;
   font-size: 70px;
   text-align: center;
+}
+
+.links a {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
 }
 
 .links .background {
